@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>D&M Restaurants</title>
+        <meta lang="eng">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+         <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css"> -->
+        <link rel="stylesheet" href="./css-customised/styling.css">
+    
+    </head>
+    <body>
+
+        <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+        
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container">
+
+                    <div class="navbar-header">
+                        <a href="index.html" class="pull-left invisible-sm visible-md visible-lg">
+                            <div id="logo-img"></div>
+                        </a>
+
+                        <div class="navbar-brand">
+                            <a href="index.html"><h1>D&M Restaurants</h1></a>
+                            <p>
+                                <img src="" alt="">
+                                <span>ISO: 2000 Certified</span>
+                                <!-- <span class="glyphicon glyphicon-star"> -->
+                            </p>
+                        </div>
+
+                        <!-- This button will start showing at around 670px of the viewport -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span> 
+                        <!-- sr-only means screen readers only -->
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="collapsable-nav">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">
+                            <li><a href="menu-categories.html"><span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu</a></li>
+
+                            <li><a href="menu-categories.html"><span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a></li>
+
+                            <li><a href="menu-categories.html"><span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards</a></li>
+
+                            <li id="phone" class="hidden-xs"><a href="tel:+254-791-970-756"><span>+254-791-970-756</span></a><div>* The Best Meal You Ever Tasted</div></li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <div id="call-btn" class="text-center visible-xs">
+            <a class="btn" href="tel:+254 791 970 756">
+                <span class="glyphicon glyphicon-earphone">254-791-970-756</span>
+            </a>
+        </div>
+        <div id="xs-deliver" class="text-center visible-xs">* The Best Meal You Ever Tasted</div>
+
+        <div id="main-content" class="container">
+            <div class="jumbotron">
+                <!-- Only show this specific image when the screen is small -->
+                <img src="images/chef-in-action-768.jpg" alt="Chef in action" class="img-responsive visible-xs">
+                <!-- style="width: 100%; margin: 0; padding: 0;" -->
+            </div>
+
+            <!-- Navigation Tiles -->
+            <div id="home-tile" class="row">
+                <!-- Menu tile -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+                </div>
+                <!-- Special tile -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="single-category.html"><div id="specials-tile"><span>Specials</span></div></a>
+                </div>
+                <!-- Map tile -->
+                <div class="col-md-4 col-sm-12 col-xs-12"><a href="https://goo.gl/maps/FZCYtj2d5i6aPuaK7" target="_blank"><div id="map-tile"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1021363.7748167589!2d34.681671189843726!3d-0.4370502812993244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa437ad4ac81d%3A0x2012a439d6248dd2!2sKisumu!5e0!3m2!1sen!2ske!4v1621111198020!5m2!1sen!2ske" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe><span>Map</span></div></a></div>
+            </div>  <!--End of home, special and map tiles-->
+        </div>      <!--End of main content-->
+
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <!--Opening and Closing hours-->
+                    <section id="hours" class="col-sm-4">
+                        <span>Hours:</span><br>
+                        Mon - Fri: 11:15 am - 10:00 pm<br>
+                        Saturday: 11:15 am - 2:30 pm<br>
+                        Sunday: Closed
+                        <hr class="visible-xs">
+                    </section>  <!--End of Opening and Closing hours-->
+
+                    <!--Address-->
+                    <section id="address" class="col-sm-4">
+                        <span>Address:</span><br>
+                            54 - 40117 Kisumu, Kenya<br>
+                            Opposite CBK, Kisumu Branch<br>
+                            Mega Plaza, 5th - 11th Floor
+                            <p>* Delivery area; within the entire Kisumu County with minimum order of KShs. 7,500. Delivery is free!</p>
+                        <hr class="visible-xs">
+                    </section>   <!--End of Address Panel-->
+
+                    <!--Testimonials-->
+                    <section id="testimonials" class="col-sm-4">
+                        <span>Testimonials:</span><br>
+                        <p>Hellen Kabia - &quot;The best prepared meal in Nyanza. Very courteous customer care&quot;.</p>
+                        <p>Charles Owino - &quot;The most experienced hospitality team in terms of meals, room services and every hoteliering aspect&quot;.</p>
+                        <hr class="visible-xs">
+                    </section>      <!--End of Testimonials-->
+
+                </div>
+
+                <!--Copyright-->
+                <div class="text-center">
+                    &copy;D&M Restaurants
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
